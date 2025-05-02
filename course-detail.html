@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mezze Basics Workshop - Taste of Levant</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Taste of Levant</div>
+        <nav id="main-nav">
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="courses.html" class="active">Cooking Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="auth-links">
+                    <a href="login.html">Log In</a>
+                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="course-detail">
+            <div class="course-hero">
+                <img src="images/courses/course-mezze.jpg" alt="Mezze Basics Workshop">
+            </div>
+            
+            <div class="container">
+                <div class="course-header">
+                    <div class="back-link">
+                        <a href="courses.html"><i class="fas fa-arrow-left"></i> Back to Courses</a>
+                    </div>
+                    <h1>Mezze Basics Workshop</h1>
+                    
+                    <div class="course-meta">
+                        <div class="meta-item">
+                            <i class="far fa-clock"></i>
+                            <span>2 hours</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>$45 per person</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-users"></i>
+                            <span>Max 12 participants</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Beginner level</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-content">
+                    <div class="course-description">
+                        <h2>About This Course</h2>
+                        <p>Mezze is the heart of Middle Eastern hospitality, featuring an array of small dishes designed to be shared. In this hands-on workshop, you'll learn to prepare four essential mezze dishes that are staples in Levantine cuisine.</p>
+                        <p>Perfect for beginners, this course will teach you the fundamental techniques for creating authentic flavors, working with key ingredients like tahini, chickpeas, and fresh herbs. By the end of the session, you'll have mastered the basics of creating a beautiful mezze spread to impress friends and family.</p>
+                    </div>
+                    
+                    <div class="course-columns">
+                        <div class="course-outline">
+                            <h2>What You'll Learn</h2>
+                            <ul class="outline-list">
+                                <li>
+                                    <h3>Hummus Preparation</h3>
+                                    <p>Learn the secrets to creating silky-smooth hummus with perfect flavor balance.</p>
+                                </li>
+                                <li>
+                                    <h3>Baba Ganoush Techniques</h3>
+                                    <p>Master the art of roasting eggplant to achieve that distinctive smoky flavor.</p>
+                                </li>
+                                <li>
+                                    <h3>Tabbouleh Salad</h3>
+                                    <p>Discover the proper ratios and chopping techniques for this herb-forward salad.</p>
+                                </li>
+                                <li>
+                                    <h3>Muhammara (Red Pepper Dip)</h3>
+                                    <p>Create this flavorful walnut and roasted pepper dip with authentic Aleppo pepper.</p>
+                                </li>
+                                <li>
+                                    <h3>Mezze Platter Assembly</h3>
+                                    <p>Learn how to arrange and present your mezze dishes with traditional accompaniments.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="course-details-sidebar">
+                            <div class="details-card">
+                                <h3>Upcoming Dates</h3>
+                                <ul class="date-list">
+                                    <li>
+                                        <div class="date-item">Saturday, August 12</div>
+                                        <div class="time-item">10:00 AM - 12:00 PM</div>
+                                    </li>
+                                    <li>
+                                        <div class="date-item">Wednesday, August 23</div>
+                                        <div class="time-item">6:00 PM - 8:00 PM</div>
+                                    </li>
+                                    <li>
+                                        <div class="date-item">Sunday, September 3</div>
+                                        <div class="time-item">2:00 PM - 4:00 PM</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="details-card">
+                                <h3>What to Bring</h3>
+                                <ul>
+                                    <li>Apron (or we can provide one)</li>
+                                    <li>Container for leftovers</li>
+                                    <li>Note-taking materials (optional)</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="details-card">
+                                <h3>Instructor</h3>
+                                <div class="instructor-info">
+                                    <img src="images/team/chef-sarah.jpg" alt="Chef Sarah" class="instructor-img">
+                                    <div class="instructor-details">
+                                        <h4>Chef Sarah</h4>
+                                        <p>Specializing in Levantine cuisine with 15 years of culinary experience in Lebanon and Jordan.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="registration-section">
+                        <h2>Register for This Course</h2>
+                        <form id="course-registration" class="registration-form">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" name="fullName" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="courseDate">Select Date</label>
+                                <select id="courseDate" name="courseDate" required>
+                                    <option value="" disabled selected>Choose a date...</option>
+                                    <option value="aug12">Saturday, August 12 (10:00 AM)</option>
+                                    <option value="aug23">Wednesday, August 23 (6:00 PM)</option>
+                                    <option value="sep3">Sunday, September 3 (2:00 PM)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="participants">Number of Participants</label>
+                                <select id="participants" name="participants" required>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="dietary">Dietary Restrictions</label>
+                                <textarea id="dietary" name="dietary" rows="3" placeholder="Please list any allergies or dietary restrictions"></textarea>
+                            </div>
+                            
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary">Register Now</button>
+                                <p class="price-note">Total: $45 per person (payment collected at venue)</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-content container">
+            <div class="footer-logo">
+                <h3>Taste of Levant</h3>
+                <p>Bringing authentic Middle Eastern flavors to your kitchen</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="courses.html">Cooking Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Taste of Levant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<!-- End of Course Detail Page --> 

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Taste of Levant</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Taste of Levant</div>
+        <nav id="main-nav">
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="courses.html">Cooking Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="auth-links">
+                    <a href="login.html">Log In</a>
+                    <a href="signup.html" class="btn btn-primary active">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="auth-section">
+            <div class="auth-container">
+                <div class="auth-content">
+                    <div class="auth-header">
+                        <h1>Create an Account</h1>
+                        <p>Join our community of Middle Eastern food enthusiasts</p>
+                    </div>
+                    
+                    <form id="signup-form" class="auth-form">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                            <span class="error-message" id="fullName-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <div class="password-field">
+                                <input type="password" id="password" name="password" required>
+                                <button type="button" class="toggle-password" aria-label="Toggle password visibility">
+                                    <i class="far fa-eye"></i>
+                                </button>
+                            </div>
+                            <span class="error-message" id="password-error"></span>
+                            <div class="password-requirements">
+                                <p>Password must:</p>
+                                <ul>
+                                    <li id="length-check">Be at least 8 characters long</li>
+                                    <li id="uppercase-check">Include at least one uppercase letter</li>
+                                    <li id="number-check">Include at least one number</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <div class="password-field">
+                                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                                <button type="button" class="toggle-password" aria-label="Toggle password visibility">
+                                    <i class="far fa-eye"></i>
+                                </button>
+                            </div>
+                            <span class="error-message" id="confirmPassword-error"></span>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="termsAgree" name="termsAgree" required>
+                            <label for="termsAgree">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                            <span class="error-message" id="termsAgree-error"></span>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to our newsletter to receive new recipes and cooking tips</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Create Account</button>
+                    </form>
+                    
+                    <div class="auth-separator">
+                        <span>or</span>
+                    </div>
+                    
+                    <div class="social-signup">
+                        <button class="btn btn-social btn-google">
+                            <i class="fab fa-google"></i>
+                            <span>Sign up with Google</span>
+                        </button>
+                        <button class="btn btn-social btn-facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Sign up with Facebook</span>
+                        </button>
+                    </div>
+                    
+                    <div class="auth-redirect">
+                        <p>Already have an account? <a href="login.html">Log In</a></p>
+                    </div>
+                </div>
+                
+                <div class="auth-image">
+                    <img src="images/auth/signup-image.jpg" alt="Middle Eastern food spread">
+                    <div class="image-overlay">
+                        <h2>Join our culinary community</h2>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Save your favorite recipes</li>
+                            <li><i class="fas fa-check"></i> Access exclusive content</li>
+                            <li><i class="fas fa-check"></i> Get discounts on cooking courses</li>
+                            <li><i class="fas fa-check"></i> Share your own recipe variations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content container">
+            <div class="footer-logo">
+                <h3>Taste of Levant</h3>
+                <p>Bringing authentic Middle Eastern flavors to your kitchen</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="courses.html">Cooking Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Taste of Levant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<!-- End of Sign Up Page --> 

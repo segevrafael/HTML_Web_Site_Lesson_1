@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Courses - Taste of Levant</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Taste of Levant</div>
+        <nav id="main-nav">
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="courses.html" class="active">Cooking Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="auth-links">
+                    <a href="login.html">Log In</a>
+                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <div class="banner-content">
+                <h1>Middle Eastern Cooking Courses</h1>
+                <p>Learn authentic techniques and recipes from experienced chefs</p>
+            </div>
+        </section>
+
+        <section class="course-categories container">
+            <h2>Find a Course for Your Level</h2>
+            <p class="section-intro">Whether you're just starting out or looking to refine your skills, our courses offer hands-on experience with traditional Middle Eastern cooking techniques and recipes.</p>
+
+            <!-- Beginner Courses -->
+            <div class="course-level">
+                <h3>Beginner Courses</h3>
+                <div class="course-cards">
+                    <article class="course-card">
+                        <div class="course-img">
+                            <img src="images/courses/course-mezze.jpg" alt="Mezze Basics Workshop">
+                        </div>
+                        <div class="course-content">
+                            <h4>Mezze Basics Workshop</h4>
+                            <p>Learn to create a selection of classic Middle Eastern appetizers including hummus, baba ganoush, and tabbouleh.</p>
+                            <div class="course-details">
+                                <div class="detail-item">
+                                    <i class="far fa-clock"></i>
+                                    <span>2 hours</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <span>$45 per person</span>
+                                </div>
+                            </div>
+                            <a href="course-detail.html?course=mezze-basics" class="btn btn-secondary">Enroll Now</a>
+                        </div>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-img">
+                            <img src="images/courses/course-flatbread.jpg" alt="Flatbread Workshop">
+                        </div>
+                        <div class="course-content">
+                            <h4>Flatbread Workshop</h4>
+                            <p>Master the techniques for making perfect pita, lavash, and man'oushe (za'atar bread) from scratch.</p>
+                            <div class="course-details">
+                                <div class="detail-item">
+                                    <i class="far fa-clock"></i>
+                                    <span>3 hours</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <span>$55 per person</span>
+                                </div>
+                            </div>
+                            <a href="course-detail.html?course=flatbread" class="btn btn-secondary">Enroll Now</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Intermediate Courses -->
+            <div class="course-level">
+                <h3>Intermediate Courses</h3>
+                <div class="course-cards">
+                    <article class="course-card">
+                        <div class="course-img">
+                            <img src="images/courses/course-street-food.jpg" alt="Street Food Favorites">
+                        </div>
+                        <div class="course-content">
+                            <h4>Street Food Favorites</h4>
+                            <p>Learn to prepare popular Middle Eastern street foods like falafel, shawarma, and kofta with authentic techniques.</p>
+                            <div class="course-details">
+                                <div class="detail-item">
+                                    <i class="far fa-clock"></i>
+                                    <span>4 hours</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <span>$75 per person</span>
+                                </div>
+                            </div>
+                            <a href="course-detail.html?course=street-food" class="btn btn-secondary">Enroll Now</a>
+                        </div>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-img">
+                            <img src="images/courses/course-grains.jpg" alt="Grains & Pulses Masterclass">
+                        </div>
+                        <div class="course-content">
+                            <h4>Grains & Pulses Masterclass</h4>
+                            <p>Discover the art of preparing perfect rice, bulgur, and legume dishes like mujadara, freekeh, and koshari.</p>
+                            <div class="course-details">
+                                <div class="detail-item">
+                                    <i class="far fa-clock"></i>
+                                    <span>3 hours</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <span>$65 per person</span>
+                                </div>
+                            </div>
+                            <a href="course-detail.html?course=grains-pulses" class="btn btn-secondary">Enroll Now</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Professional Courses -->
+            <div class="course-level">
+                <h3>Professional Courses</h3>
+                <div class="course-cards">
+                    <article class="course-card">
+                        <div class="course-img">
+                            <img src="images/courses/course-desserts.jpg" alt="Middle Eastern Pastry Arts">
+                        </div>
+                        <div class="course-content">
+                            <h4>Middle Eastern Pastry Arts</h4>
+                            <p>Master the intricate techniques of preparing baklava, kunafa, ma'amoul, and other traditional sweets.</p>
+                            <div class="course-details">
+                                <div class="detail-item">
+                                    <i class="far fa-clock"></i>
+                                    <span>6 hours</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <span>$120 per person</span>
+                                </div>
+                            </div>
+                            <a href="course-detail.html?course=pastry-arts" class="btn btn-secondary">Enroll Now</a>
+                        </div>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-img">
+                            <img src="images/courses/course-chef.jpg" alt="Chef's Intensive Program">
+                        </div>
+                        <div class="course-content">
+                            <h4>Chef's Intensive Program</h4>
+                            <p>A comprehensive 5-day course covering all aspects of Middle Eastern cuisine from mezze to desserts.</p>
+                            <div class="course-details">
+                                <div class="detail-item">
+                                    <i class="far fa-clock"></i>
+                                    <span>30 hours (5 days)</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <span>$495 per person</span>
+                                </div>
+                            </div>
+                            <a href="course-detail.html?course=chef-intensive" class="btn btn-secondary">Enroll Now</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="course-info container">
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Our Location</h3>
+                <p>All courses are held at our fully equipped teaching kitchen in downtown. Free parking available.</p>
+            </div>
+            
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3>What's Included</h3>
+                <p>All ingredients, use of equipment, recipes to take home, and a meal at the end of each session.</p>
+            </div>
+            
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Class Size</h3>
+                <p>Small groups of 8-12 participants to ensure personal attention and an optimal learning experience.</p>
+            </div>
+        </section>
+
+        <section class="testimonials container">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">The mezze workshop was fantastic! I never thought I could make hummus that tastes better than store-bought, but now I'm making it weekly for my family.</p>
+                    <div class="testimonial-author">
+                        <p>— Sarah J.</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">The Chef's Intensive Program was worth every penny. After 30 years of home cooking, I still learned techniques that have completely elevated my Middle Eastern dishes.</p>
+                    <div class="testimonial-author">
+                        <p>— Michael T.</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">I've taken three courses here and each one has been exceptional. The instructors are knowledgeable, patient, and make learning so much fun.</p>
+                    <div class="testimonial-author">
+                        <p>— Amina K.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content container">
+            <div class="footer-logo">
+                <h3>Taste of Levant</h3>
+                <p>Bringing authentic Middle Eastern flavors to your kitchen</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="courses.html">Cooking Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Taste of Levant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<!-- End of Cooking Courses Page --> 
