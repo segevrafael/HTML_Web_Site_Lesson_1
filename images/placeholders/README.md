@@ -35,3 +35,4 @@ All placeholder images use the JPEG format for consistency.
 - **Profile pictures:** Use the profile placeholders
 
 Remember to replace all placeholders with actual optimized images before deployment. 
+## Test Message
